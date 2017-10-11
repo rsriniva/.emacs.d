@@ -47,9 +47,6 @@ dired-use-ls-dired nil
 ;; Show buffer name in title bar
  frame-title-format '("%b")
 
-;; Case-insensitive buffer name tab autocompletion
- read-buffer-completion-ignore-case t
-
 ;; Default to Unix LF line endings
  buffer-file-coding-system 'utf-8-unix
 
@@ -117,16 +114,6 @@ column-number-mode t)
 ;; Makes *scratch* empty.
 (setq initial-scratch-message "")
 
-;; Removes *scratch* from buffer after the mode has been set.
-(defun remove-scratch-buffer ()
-  (if (get-buffer "*scratch*")
-      (kill-buffer "*scratch*")))
-(add-hook 'after-change-major-mode-hook 'remove-scratch-buffer)
-
-;; Removes *messages* from the buffer.
-(setq-default message-log-max nil)
-(kill-buffer "*Messages*")
-
 ;; Removes *Completions* from buffer after you've opened a file.
 (add-hook 'minibuffer-exit-hook
       '(lambda ()
@@ -137,9 +124,9 @@ column-number-mode t)
 ;; Don't show *Buffer list* when opening multiple files at the same time.
 (setq inhibit-startup-buffer-menu t)
 
-(add-to-list 'load-path
-              "~/.emacs.d/plugins/yasnippet")
-(require 'yasnippet)
+(use-package yasnippet
+  :ensure t)
+
 (yas-global-mode 1)
 
 (setq inhibit-startup-message t
