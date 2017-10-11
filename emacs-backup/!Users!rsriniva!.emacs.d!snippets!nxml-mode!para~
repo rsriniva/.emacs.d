@@ -1,6 +1,0 @@
-# -*- mode: snippet -*-
-# name: para for docbook
-# key: para
-# --
-<para>${1}</para>
-

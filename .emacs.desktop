@@ -1,0 +1,19 @@
+;; -*- mode: emacs-lisp; coding: emacs-mule; -*-
+;; --------------------------------------------------------------------------
+;; Desktop File for Emacs
+;; --------------------------------------------------------------------------
+;; Created Wed Oct 11 23:51:47 2017
+;; Desktop file format version 208
+;; Emacs version 25.3.1
+
+;; Global section:
+(setq desktop-saved-frameset [frameset 1 (23006 24891 87164 0) (desktop . "208") "rsriniva@valhalla" nil nil ((((font-backend mac-ct) (fontsize . 0) (font . "-*-Monaco-normal-normal-normal-*-14-*-*-*-m-0-iso10646-1") (border-width . 0) (internal-border-width . 2) (vertical-scroll-bars . right) (horizontal-scroll-bars) (foreground-color . "Black") (background-color . "White") (line-spacing) (left-fringe . 8) (right-fringe . 8) (menu-bar-lines . 1) (tool-bar-lines . 1) (title) (icon-type) (auto-raise) (auto-lower) (cursor-type . box) (scroll-bar-width . 15) (scroll-bar-height . 0) (alpha) (fullscreen) (display-type . color) (background-mode . light) (cursor-color . "black") (environment) (frameset--id . "7F2C-CEDD-2BE7-94A6") (frameset--mini t . t) (modeline . t) (minibuffer . t) (unsplittable) (right-divider-width . 0) (bottom-divider-width . 0) (icon-name) (visibility . t) (display . "valhalla") (explicit-name) (tool-bar-position . top) (height . 36) (width . 80) (left . 0) (top . 23)) ((min-height . 4) (min-width . 10) (min-height-ignore . 2) (min-width-ignore . 6) (min-height-safe . 1) (min-width-safe . 2) (min-pixel-height . 76) (min-pixel-width . 80) (min-pixel-height-ignore . 38) (min-pixel-width-ignore . 48) (min-pixel-height-safe . 19) (min-pixel-width-safe . 16)) leaf (pixel-width . 671) (pixel-height . 665) (total-width . 83) (total-height . 35) (normal-height . 1.0) (normal-width . 1.0) (buffer "*scratch*" (selected . t) (hscroll . 0) (fringes 8 8 nil) (margins nil) (scroll-bars nil 2 t nil 0 nil) (vscroll . 0) (dedicated) (point . 1) (start . 1))))])
+(setq desktop-missing-file-warning nil)
+(setq tags-file-name nil)
+(setq tags-table-list nil)
+(setq search-ring nil)
+(setq regexp-search-ring nil)
+(setq register-alist nil)
+(setq file-name-history '("~/gita.sh" "~/.emacs.d/init.el" "~/Projects/dockerfiles/hello-swarm/pom.xml" "~/Projects/dockerfiles/hello-swarm/Dockerfile" "~/Projects/dockerfiles/hello-swarm/src/main/java/com/redhat/training/openshift/hello/HelloResource.java" "~/.emacs.d/elpa/docker-20170718.303/docker-autoloads.el" "~/.emacs.d/elpa/docker-tramp-20170206.1925/docker-tramp-autoloads.el" "~/.emacs.d/elpa/tablist-20170219.1935/tablist-autoloads.el" "~/.emacs.d/elpa/json-mode-20170719.2205/json-mode-autoloads.el" "~/.emacs.d/elpa/json-reformat-20160212.53/json-reformat-autoloads.el" "~/.emacs.d/elpa/json-snatcher-20150511.2047/json-snatcher-autoloads.el" "~/.emacs.d/elpa/magit-20171009.1252/magit-autoloads.el" "~/.emacs.d/elpa/git-commit-20171007.346/git-commit-autoloads.el" "~/.emacs.d/elpa/with-editor-20171006.352/with-editor-autoloads.el" "~/.emacs.d/elpa/magit-popup-20171009.258/magit-popup-autoloads.el" "~/.emacs.d/elpa/async-20170916.2256/async-autoloads.el" "~/Projects/github/DO288/guides/en-US/sg-chapters/topics/designing/dockerfile.xml" "~/.emacs.d/snippets/nxml-mode/listitem" "~/.emacs.d/snippets/nxml-mode/itemizedlist" "~/.emacs.d/snippets/nxml-mode/orderedlist"))
+
+;; Buffer section -- buffers listed in same order as in buffer list:
