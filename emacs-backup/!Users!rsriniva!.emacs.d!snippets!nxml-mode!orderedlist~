@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: ordered list for docbook
+# key: order
+# --
+<itemizedlist>
+  <listitem>
+   <para>${1}</para>
+  </listitem>
+</itemizedlist>

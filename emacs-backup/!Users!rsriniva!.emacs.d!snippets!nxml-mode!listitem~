@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: listitem for docbook
+# key: list
+# --
+<listitem>
+  <para>${1}</para>
+</listitem>
